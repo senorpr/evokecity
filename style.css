@@ -5,28 +5,15 @@
 }
 
 
-.container {
-  /*display: flex;*/
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  border: #fbab40;
-  height: 100vh;
-  opacity: 0.6;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,1);
-}
-
 .img-header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto;
   border: #fbab40;
-  height: 100vh;
   background-image: url(./assets/photographer3.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
   background-position: top;
   justify-content: center;
   align-items: center;
@@ -75,22 +62,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container {
-       background-position-y: top;
-    }
 }
 
 @media screen and (max-width: 600px) {
-
-.container{
-    background-position-y: top;
-    }
-  pre {
-    font-size: 0.8rem;
-    padding: 8px 12px;
-    width: 100%;
-  }
-
   body {
     width: 100vw;
   }
